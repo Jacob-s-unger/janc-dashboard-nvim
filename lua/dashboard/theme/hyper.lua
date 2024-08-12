@@ -1,6 +1,6 @@
 local api, keymap, uv = vim.api, vim.keymap, vim.loop
 local utils = require('dashboard.utils')
-local ns = api.nvim_create_namespace('dashboard')
+local ns = api.nvim_create_namespace('J A N C')
 
 local function gen_shortcut(config)
   local shortcut = config.shortcut
